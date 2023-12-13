@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header_footer {
+  background-color: green;
+  color: yellow;
+  padding: 15px;
+}
+
+.dimensions {
+  color: green;
+}
+
+.btn {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.btn-bottom {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.bar-container {
+  display: inline-block;
+  padding: 10vh 5px;
+  /* padding: 50px 5px; */
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 20px;
+  background-color: #4f5253;
+  margin-bottom: 5px;
+}
+
+.value-label {
+  color: #3498db;
+  padding-top: 10px;
+}

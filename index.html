@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <div class="header_footer">
+      <h1>Comparison Sorting Algorithm</h1>
+    </div>
+    <div class="main-container">
+      <div class="btn">
+        <button onclick="randomizeArray()">Randomize Array</button>
+        <button onclick="initiateInsertionSort()">Insertion Sort</button>
+        <button onclick="initiateSelectionSort()">Selection Sort</button>
+        <button onclick="initiateBubbleSort()">Bubble Sort</button>
+        <button onclick="initiateQuickSort()">Quick Sort</button>
+        <button onclick="initiateMergeSort()">Merge Sort</button>
+        <button onclick="initiateShellSort()">Shell Sort</button>
+        <button onclick="changeSize()">Change Size</button>
+      </div>
+      <div id="container" class="bar-container"></div>
+      <div class="btn-bottom">
+        <button disabled>Skip Back</button>
+        <button disabled>Step Back</button>
+        <button onclick="pauseSorting()">Pause</button>
+        <button disabled>Step Forward</button>
+        <button disabled>Skip Forward</button>
+        <label class="dimensions" >W : </label>
+        <input id="widthInput"  type="number"></input>
+        <label class="dimensions" >H : </label>
+        <input id="heightInput"  type="number"></input>
+        <button id="changeSizeButton">Change Canvas Size</button>
+        <button disabled>Move Controls</button>
+      </div>
+    </div>
+        <div class="header_footer">
+      <h1>Algorithm Visualisations</h1>
+    </div>
+  </div>
+  <script src="functions.js" async defer></script>
+  <script src="Algorithms/InsertionSort.js" async defer></script>
+  <script src="Algorithms/SelectionSort.js" async defer></script>
+  <script src="Algorithms/BubbleSort.js" async defer></script>
+  <script src="Algorithms/QuickSort.js" async defer></script>
+  <script src="Algorithms/MergeSort.js" async defer></script>
+  <script src="Algorithms/ShellSort.js" async defer></script>
+</body>
+
+</html>
